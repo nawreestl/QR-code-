@@ -22,6 +22,9 @@ Elle est développée avec **Python**, **Streamlit**, **qrcode** et **Pillow (PI
 
 ```bash
 streamlit run app.py
+
+---
+
 ## 💻 Description du Code
 
 L'application propose :
