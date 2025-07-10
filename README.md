@@ -25,26 +25,3 @@ streamlit run app.py
 
 ---
 
-💻 Description du Code
-L'application propose :
-
-Un champ de saisie pour entrer un texte ou une URL
-
-Un bouton "Générer QR Code"
-
-La génération automatique du QR Code avec la bibliothèque qrcode
-
-L'affichage instantané du QR Code
-
-Un bouton de téléchargement du fichier QRCode.png
-
-📦 Résultat
-🖼️ Un QR Code est généré dynamiquement
-
-💾 Il est enregistré localement sous le nom QRCode.png
-
-🔽 L’utilisateur peut le télécharger directement depuis l’interface
-
-📄 Licence
-Ce projet est open-source sous licence MIT.
-Vous êtes libre de l’utiliser, de le modifier et de le partager.
