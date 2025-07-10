@@ -1,31 +1,48 @@
-🔳 Générateur de QR Code avec Streamlit
-Cette application web simple permet de générer un QR Code personnalisé à partir d'un texte ou d'une URL. Elle est développée avec Python, Streamlit, qrcode et Pillow (PIL).
+# 🔳 Générateur de QR Code avec Streamlit
 
-🚀 Fonctionnalités
-Interface web avec Streamlit
+Cette application web simple permet de générer un QR Code personnalisé à partir d'un texte ou d'une URL.  
+Elle est développée avec **Python**, **Streamlit**, **qrcode** et **Pillow (PIL)**.
 
-Génération de QR Code en temps réel
+---
 
-Affichage direct du QR Code
+## 🚀 Fonctionnalités
 
-Téléchargement du QR Code sous forme d’image PNG
+- ✅ Interface web interactive avec Streamlit  
+- ✅ Génération de QR Code en temps réel  
+- ✅ Affichage direct du QR Code généré  
+- ✅ Téléchargement du QR Code au format image (.png)  
+- ✅ Compatible avec tout type de texte, lien ou donnée
 
-Compatible avec tout type de texte ou lien
+---
 
-▶️ Utilisation
-Lancer l'application avec :
+## ▶️ Utilisation
 
+1. Ouvrez un terminal dans le dossier du projet  
+2. Exécutez la commande suivante :
+
+```bash
 streamlit run app.py
+## 💻 Description du Code
 
-Remplacer app.py si le fichier a un autre nom.
+L'application propose :
 
-💻 Aperçu du code
-L'application propose un champ de saisie pour un texte ou une URL. Lors du clic sur le bouton "Générer QR Code", elle crée un QR Code, l'affiche et propose de le télécharger.
+- Un champ de saisie pour entrer un **texte ou une URL**
+- Un bouton **"Générer QR Code"**
+- La génération automatique du QR Code avec la bibliothèque **qrcode**
+- L'affichage instantané du QR Code
+- Un bouton de **téléchargement** du fichier `QRCode.png`
 
-📦 Résultat
-Le QR Code est généré sous forme d’image .png
+---
 
-Il s’affiche dans l’interface et peut être téléchargé
+## 📦 Résultat
 
-📄 Licence
-Projet open-source sous licence MIT. Vous pouvez le modifier et l’utiliser librement.
+- 🖼️ Un QR Code est généré dynamiquement
+- 💾 Il est enregistré localement sous le nom `QRCode.png`
+- 🔽 L’utilisateur peut le télécharger directement depuis l’interface
+
+---
+
+## 📄 Licence
+
+Ce projet est open-source sous licence **MIT**.  
+Vous êtes libre de l’utiliser, de le modifier et de le partager.
